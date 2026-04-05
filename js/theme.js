@@ -66,26 +66,7 @@
             keyboard_direction: "horizontal",
             mouseScrollNavigation: "off",
             onHoverStop: "off",
-            arrows: {
-                style: "custom",
-                enable: true,
-                hide_onmobile: true,
-                hide_under: 600,
-                hide_onleave: true,
-                tmp: '',
-                left: {
-                    h_align: "left",
-                    v_align: "center",
-                    h_offset: 40,
-                    v_offset: 0
-                },
-                right: {
-                    h_align: "right",
-                    v_align: "center",
-                    h_offset: 40,
-                    v_offset: 0
-                }
-            },
+           
             bullets: {
                 enable: false
             }
@@ -99,51 +80,7 @@
             disable_onmobile: 'on'
         }
     });
-    var revapi2 = jQuery('#rev_slider_2').show().revolution({
-        delay: 6000,
-        responsiveLevels: [1200, 1140, 778, 480],
-        gridwidth: [1140, 920, 700, 380],
-        jsFileLocation: "js/",
-        sliderLayout: "auto",
-        minHeight: '973',
-        navigation: {
-            keyboardNavigation: "off",
-            keyboard_direction: "horizontal",
-            mouseScrollNavigation: "off",
-            onHoverStop: "off",
-            arrows: {
-                style: "custom",
-                enable: true,
-                hide_onmobile: true,
-                hide_under: 600,
-                hide_onleave: true,
-                tmp: '',
-                left: {
-                    h_align: "left",
-                    v_align: "center",
-                    h_offset: 30,
-                    v_offset: 0
-                },
-                right: {
-                    h_align: "right",
-                    v_align: "center",
-                    h_offset: 30,
-                    v_offset: 0
-                }
-            },
-            bullets: {
-                enable: false
-            }
-        },
-        parallax: {
-            type: 'mouse+scroll',
-            origo: 'slidercenter',
-            speed: 400,
-            levels: [5,10,15,20,25,30,35,40,
-                     45,46,47,48,49,50,51,55],
-            disable_onmobile: 'on'
-        }
-    });
+
     var revapi3 = jQuery('#rev_slider_3').show().revolution({
         delay: 6000,
         responsiveLevels: [1200, 1140, 778, 480],
